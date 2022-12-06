@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    display: inline;
     font-size: 48px;
 }
 
@@ -32,14 +32,15 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
-    list-style-type: none;
+header nav {
+    list-style-type: inline;
+    float: right;
 }
 
-header div ul li {
-    display: inline-block;
+/* header div ul li {
+    display: inline;
     margin-left: 25px;
-}
+} */
 
 a {
     color: #ffffff;
@@ -50,11 +51,11 @@ p {
     font-size: 16px;
 }
 
-.hero {
+header {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
@@ -69,13 +70,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.article{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -108,7 +109,7 @@ p {
 
 .benefit-brand h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: right;
 }
 
 .benefit-cost h3 {
